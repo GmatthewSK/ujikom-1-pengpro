@@ -12,6 +12,22 @@
 --shadow: 0 12px 35px rgba(20, 43, 74, .08);
 }
 
+.profile-avatar {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
@@ -322,19 +338,4 @@ footer { padding:25px 0; color:var(--muted); font-size:.8rem; text-align:center;
   cursor: pointer;
   border: none;
   background: transparent;
-}
-
-.profile-avatar {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.profile-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
 }
